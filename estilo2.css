@@ -11,7 +11,7 @@
 
 	.titulo {
 		margin-left: 10%;
-		margin-top: 15%;
+		margin-top: 12%;
 		width: 40%;
 		height: 200px;
 		line-height: 199px;
@@ -19,14 +19,24 @@
 	}
 
 	.imagem {
-		margin-top: 15%;
+		margin-top: 12%;
 		width: 20%;
 		margin-left: 15%;
 	}
 
 	.imagem img {
 		margin-right: 10px;
-		border-radius: 100px;
+		border-radius: 150px;
+	}
+
+	#botao {
+		margin-left: 5%;
+		height: 40px;
+		line-height: 39px;
+		border-radius: 20px;
+		width: 20%;
+		text-align: center;
+		background: rgb(217, 37, 103);
 	}
 
 }
