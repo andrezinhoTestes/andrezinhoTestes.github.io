@@ -30,13 +30,55 @@
 	}
 
 	#botao {
-		margin-left: 5%;
-		height: 40px;
-		line-height: 39px;
-		border-radius: 20px;
-		width: 20%;
-		text-align: center;
-		background: rgb(217, 37, 103);
+		
+		position: relative;
+		width: 160px;
+		height: 60px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: transparent;
+		overflow: hidden;
+		border-radius: 30px;
+		left: 100px;
+		
+	}
+
+	#botao::before {
+		content: '';
+		position: absolute;
+		width: 30px;
+		height: 200px;
+		background: linear-gradient(red, rgb(217, 37, 103));
+		animation: animate 4s linear infinite;
+
+	}
+
+	#botao::after {
+		content: '';
+		position: absolute;
+		inset: 2px;
+		background: white;
+		border-radius: 16px;
+		
+	}
+
+	#botao h2 {
+		color: rgb(217, 37, 103);
+		z-index: 10;
+	}
+
+	#botao:hover {
+		cursor: pointer;
+	}
+
+	@keyframes animate{
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
 	}
 
 }
