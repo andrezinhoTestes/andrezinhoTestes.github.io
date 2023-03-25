@@ -37,7 +37,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background: black;
+		background: transparent;
 		overflow: hidden;
 		border-radius: 60px;
 		top: 150px;
@@ -53,6 +53,8 @@
 		border-radius: 20px;
 		background: linear-gradient(red, rgb(217, 37, 103));
 		animation: animate 4s linear infinite;
+		justify-content: center;
+		align-items: center;
 
 	}
 
@@ -62,6 +64,8 @@
 		inset: 10px;
 		background: white;
 		border-radius: 50px;
+		justify-content: center;
+		align-items: center;
 		
 	}
 
@@ -69,6 +73,8 @@
 		color: rgb(217, 37, 103);
 		z-index: 10;
 		font-size: 30px;
+		justify-content: center;
+		align-items: center;
 	}
 
 	#botao:hover {
