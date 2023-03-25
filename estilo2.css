@@ -1,6 +1,6 @@
 @media screen and (min-width: 375px) {
 	html, body {
-		height: 1000px;
+		height: 800px;
 	}
 	#head {
 		display: flex;
@@ -39,7 +39,7 @@
 		align-items: center;
 		background: transparent;
 		overflow: hidden;
-		border-radius: 60px;
+		/*border-radius: 60px;*/
 		top: 150px;
 		left: 100px;
 		
@@ -50,7 +50,7 @@
 		position: absolute;
 		width: 30px;
 		height: 320px;
-		border-radius: 20px;
+		/*border-radius: 20px;*/
 		background: linear-gradient(red, rgb(217, 37, 103));
 		animation: animate 4s linear infinite;
 		justify-content: center;
@@ -63,7 +63,7 @@
 		position: absolute;
 		inset: 10px;
 		background: white;
-		border-radius: 50px;
+		/*border-radius: 50px;*/
 		justify-content: center;
 		align-items: center;
 		
@@ -95,6 +95,75 @@
 
 @media screen and (min-width: 1120px){
 	body{
-		background: lightblue;
+		
+	}
+
+	#head {
+		display: flex;
+		width: 100%;
+		height: 10%;
+
+	}
+
+	.titulo {
+		margin-left: 10%;
+		margin-top: 10%;
+		width: 40%;
+		height: 200px;
+		font-size: 50px;
+	}
+
+	#botao {
+		width: 200px;
+		height: 80px;
+		overflow: hidden;
+		/*border-radius: 60px;*/
+		top: 25%;
+		left: 100px;
+	}
+
+	#botao h2 {
+		color: rgb(217, 37, 103);
+		z-index: 5;
+		margin: 0 auto;
+		font-size: 20px;
+		
+	}
+
+	#botao::before {
+		content: '';
+		position: absolute;
+		width: 30px;
+		height: 320px;
+		/*border-radius: 20px;*/
+		background: linear-gradient(red, rgb(217, 37, 103));
+		animation: animate 4s linear infinite;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	#botao::after {
+		content: '';
+		position: absolute;
+		inset: 5px;
+		background: white;
+		/*border-radius: 50px;*/
+		justify-content: center;
+		align-items: center;
+		
+	}
+
+
+	.imagem {
+		margin-top: 5%;
+		width: 20%;
+		margin-left: 20%;
+	}
+
+	.imagem img {
+		width: 80%;
+		margin-right: 10px;
+		border-radius: 150px;
 	}
 }
