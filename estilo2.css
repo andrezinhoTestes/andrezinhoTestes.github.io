@@ -71,7 +71,8 @@
 
 	#botao h2 {
 		color: rgb(217, 37, 103);
-		z-index: 10;
+		z-index: 5;
+
 		font-size: 30px;
 		justify-content: center;
 		align-items: center;
