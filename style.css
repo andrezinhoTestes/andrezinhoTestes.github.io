@@ -40,7 +40,7 @@
 	}
 	body{
 		background-image: url("back.jpeg");
-		
+		background-position: -30px -30px;
 		overflow: hidden;
 		
 		padding: 0;
@@ -98,7 +98,7 @@
 		height: 30%;
 		background-color: rgba(3, 150, 166, 0.8);
 		border-radius: 10px;
-		border-bottom: 5px solid #0396a6;
+		border-bottom: 8px solid #0396a6;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -176,6 +176,18 @@
 	  border-left: 70px solid transparent;
 	}
 	
+	.aviso {
+		position: absolute;
+		bottom: 6%;
+		width: 80%;
+		height: 10%;
+		color: white;
+		border: 1px solid white;
+		display: flex;
+		
+		justify-content: center;
+		align-items: center;
+	}
 
 
 
