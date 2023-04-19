@@ -114,6 +114,9 @@
 		
 	}
 	
+	a {
+		text-decoration: none;
+	}
 
 	a > p {
 		font-size: 0.6em;
