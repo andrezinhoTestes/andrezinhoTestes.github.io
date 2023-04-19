@@ -36,6 +36,7 @@
 	html {
 		margin: 0;
 		padding: 0;
+		overflow: hidden;
 	}
 	body{
 		background-image: url("back.jpeg");
@@ -93,7 +94,7 @@
 
 	.square {
 		margin: 32% 5px;
-		width: calc((85% - 20px) / 3);
+		width: calc((85% - 10px) / 3);
 		height: 30%;
 		background-color: rgba(3, 150, 166, 0.8);
 		border-radius: 10px;
@@ -111,13 +112,11 @@
 		margin-top: 15%;
 		
 		
-		
 	}
-
 	
 
-	.square p {
-		
+	a > p {
+		font-size: 0.6em;
 		margin-top: 5px;
 		width: 100%;
 		color: white;
