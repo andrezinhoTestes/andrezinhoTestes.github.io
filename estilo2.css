@@ -2,7 +2,7 @@
 	html, body {
 		font-family: 'Inter', sans-serif;
 		height: 800px;
-		background: black;
+		background: white;
 	}
 	#head {
 		position: relative;
@@ -34,6 +34,14 @@
 	.imagem img {
 		margin-right: 10px;
 		border-radius: 150px;
+	}
+
+	#texto {
+		margin: 0 auto;
+		margin-bottom: 50px;
+		border: 1px solid black;
+		height: 400px;
+		width: 80%;
 	}
 
 	a{	
